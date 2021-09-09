@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/ic_baseline_home_24"
+        app:exb_color="#FF8888"/>
+    <item
+        android:id="@+id/settings"
+        android:title="Setting"
+        android:icon="@drawable/ic_baseline_settings_24"
+        app:exb_color="#03A9F4" />
+
+    <item
+        android:id="@+id/bookmarks"
+        android:title="Bookmark"
+        android:icon="@drawable/ic_baseline_bookmark_24"
+        app:exb_color="#fa2" />
+</menu>
