@@ -9,11 +9,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.splash_screen)
-        val slideView: SlideView = findViewById(R.id.slideview)
-        slideView.setOnSlideCompleteListener { // vibrate the device
-            // go to a new activity
-            startActivity(Intent(this@MainActivity , SplashScreen::class.java))
-        }
+        setContentView(R.layout.activity_main)
+
     }
 }
